@@ -1,0 +1,24 @@
+.DS_Store
+
+# Xcode
+DerivedData/
+build/
+*.xcarchive
+*.xcresult
+*.ipa
+*.dSYM.zip
+*.dSYM
+xcuserdata/
+*.xcuserstate
+
+# Release output
+dist/
+*.dmg
+*.dmg.sha256
+
+# Swift Package Manager
+.build/
+
+# Local tooling
+.env
+.env.*

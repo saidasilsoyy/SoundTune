@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDisplayName</key>
+	<string>SoundTune</string>
+	<key>CFBundleName</key>
+	<string>SoundTune</string>
+	<key>CFBundleShortVersionString</key>
+	<string>$(MARKETING_VERSION)</string>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleURLName</key>
+			<string>com.soundtune.SoundTune</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>soundtune</string>
+			</array>
+		</dict>
+	</array>
+	<key>CFBundleVersion</key>
+	<string>$(CURRENT_PROJECT_VERSION)</string>
+	<key>LSUIElement</key>
+	<true/>
+	<key>NSAppleEventsUsageDescription</key>
+	<string>SoundTune shows what's playing and controls playback for music apps and browsers (active tab title and address) from the menu bar.</string>
+	<key>NSAudioCaptureUsageDescription</key>
+	<string>SoundTune needs access to control volume levels for individual applications.</string>
+	<key>NSBluetoothAlwaysUsageDescription</key>
+	<string>SoundTune uses Bluetooth to connect paired audio devices from the menu bar.</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>SoundTune needs microphone access to capture audio from apps using input-capable devices.</string>
+</dict>
+</plist>
